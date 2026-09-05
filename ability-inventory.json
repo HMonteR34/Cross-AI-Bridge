@@ -1,0 +1,37 @@
+{
+  "updated": "2026-09-05T07:22:00-05:00",
+  "grok": {
+    "skills": [
+      "web-form-filler",
+      "cross-ai-bridge",
+      "comet-browser",
+      "deep-research-completion",
+      "firmware-development",
+      "postgresql-sql",
+      "weekly-project-status",
+      "docx",
+      "ffmpeg",
+      "pdf",
+      "pptx",
+      "xlsx",
+      "skill-creator"
+    ],
+    "connectors": ["Google Drive", "GitHub", "Finance", "Voice", "Automations"],
+    "notes": "Full skill system + browser_tab + sandbox. Can create and export skills. Firmware-development skill focuses on embedded C/C++, RTOS, secure boot, drivers, porting, and security hardening."
+  },
+  "claude": {
+    "skills": [],
+    "connectors": [],
+    "notes": "Fill in as discovered from user account."
+  },
+  "gemini": {
+    "skills": [],
+    "connectors": [],
+    "notes": "Fill in as discovered from user account."
+  },
+  "perplexity": {
+    "skills": [],
+    "connectors": ["Comet browser"],
+    "notes": "Comet agentic browser available. Fill remaining details from user."
+  }
+}
