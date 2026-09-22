@@ -2,49 +2,31 @@
 
 Collaboration hub for sharing skills, context briefs, ability inventories, and project state across Perplexity (Comet / “Plex”), Gemini, Claude, and Grok.
 
-**GitHub location**: https://github.com/HMonteR34/Cross-AI-Bridge  
-**Original local path**: `/home/workdir/artifacts/Cross-AI-Bridge/`
+**GitHub**: https://github.com/HMonteR34/Cross-AI-Bridge  
+**Local hub**: `/home/workdir/artifacts/Cross-AI-Bridge/`
 
 ## Structure
 
 ```
 Cross-AI-Bridge/
 ├── README.md
-├── ability-inventory.json          # Capabilities of each AI
-├── skills/                         # Portable skill packages
-│   └── firmware-development/       # Exported firmware skill
-├── context-briefs/                 # Timestamped handoff & research briefs
-├── shared-memory/                  # Longer-lived project state & decisions
+├── ability-inventory.json
+├── skills/firmware-development/
+├── context-briefs/
+├── shared-memory/
 ├── connectors-status/
-├── messages/                       # Lightweight cross-AI notes
-├── assets/
-└── references/
+└── messages/
 ```
 
-## Current Shared Skills
+## Active project
 
-### firmware-development
-- **Source**: Grok
-- **Exported**: 2026-09-05
-- **Path**: `skills/firmware-development/`
-- **Purpose**: Firmware development, board bring-up, driver implementation, RTOS integration, debugging, porting, and security hardening for MCUs/SoCs/IoT.
-- **Key focus for this share**: Google Onn 4K Pro (2024 S905X4 / 2026 S905X5M), locked bootloader with productmode, ADB + UART access, OTA capture, secure-boot and OTA hardening analysis.
-- **Key files**:
-  - `SKILL.md` — full skill definition and workflow
-  - `references/security-checklist.md` — embedded security checklist
-  - `manifest.json` — export metadata
+**Onn 4K Pro firmware analysis** (2024 `jarvis`/SNA S905X4 and 2026 `jarvis2`/JS620K4 S905X5M). Locked bootloader, productmode, ADB + UART, OTA capture. Not the 2026 Streaming Stick (`wayne` / RTD1325), which is a different unlock story.
 
-## How to Use from Another AI
+Latest confer: `context-briefs/2026-09-22-1747-onn-firmware-confer-gemini-plex.md`
 
-1. Clone or browse this repository.
-2. Read `ability-inventory.json` for current capabilities.
-3. For the firmware skill: load `skills/firmware-development/SKILL.md` and the security checklist.
-4. Use `context-briefs/` for handoffs or mutual research (especially the Onn 4K Pro brief).
+## How to use from another AI
 
-## Collaboration Patterns Supported
-
-- Handoff
-- Mutual research / confer
-- Division of labor
-
-See the original cross-ai-bridge skill for templates and detailed instructions.
+1. Clone this repo.
+2. Read `ability-inventory.json` and `shared-memory/onn-4k-pro.md`.
+3. Load `skills/firmware-development/SKILL.md`.
+4. Append findings under **Results Log** in the latest brief, or drop a note in `messages/`.

@@ -2,7 +2,8 @@
   "name": "firmware-development",
   "source": "grok",
   "exported": "2026-09-05T07:22:00-05:00",
-  "description": "Use this skill for firmware development, board bring-up, driver implementation, RTOS integration, debugging, porting across hardware platforms, and especially security hardening. Trigger on embedded C/C++, bare-metal, Zephyr, FreeRTOS, ARM/RISC-V, secure boot, drivers, bootloader, OTA, or security best practices.",
+  "updated": "2026-09-22T17:47:00-05:00",
+  "description": "Use this skill for firmware development, board bring-up, driver implementation, RTOS integration, debugging, porting across hardware platforms, and especially security hardening.",
   "files": [
     "SKILL.md",
     "references/security-checklist.md"
@@ -30,5 +31,6 @@
     "Security by design (secure boot, crypto, isolation)",
     "MISRA/CERT compliance, version control, rigorous testing",
     "Validate on real hardware"
-  ]
+  ],
+  "fitness_note": "Generic MCU skill. Live work is Amlogic Google TV reverse-engineering (Onn 4K Pro). See shared-memory/grok-evaluation-2026-09-22.md."
 }

@@ -44,3 +44,6 @@ See references/security-checklist.md for details.
 - Static analyzers, fuzzers.
 
 Add templates to assets/. Use references/ for MCU-specific guides. Integrate with docx/pdf skills for reports.
+
+## Live-project note (2026-09-22)
+This package is still generic MCU/RTOS. The user's active target is locked Google TV on Amlogic (Onn 4K Pro). Grok evaluation: treat OTA capture, UART, AVB, and productmode as the real workflow until a specialized skill exists. See `shared-memory/grok-evaluation-2026-09-22.md`.

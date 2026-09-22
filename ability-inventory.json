@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T07:22:00-05:00",
+  "updated": "2026-09-22T17:47:00-05:00",
   "grok": {
     "skills": [
       "web-form-filler",
@@ -8,30 +8,24 @@
       "deep-research-completion",
       "firmware-development",
       "postgresql-sql",
-      "weekly-project-status",
-      "docx",
-      "ffmpeg",
-      "pdf",
-      "pptx",
-      "xlsx",
-      "skill-creator"
+      "weekly-project-status"
     ],
-    "connectors": ["Google Drive", "GitHub", "Finance", "Voice", "Automations"],
-    "notes": "Full skill system + browser_tab + sandbox. Can create and export skills. Firmware-development skill focuses on embedded C/C++, RTOS, secure boot, drivers, porting, and security hardening."
+    "connectors": ["GitHub", "Gmail", "Canva", "X Ads", "Finance", "Voice", "Automations"],
+    "notes": "Sandbox + browser QA + GitHub write. Google Drive listed as connected but token missing this session. Firmware-development skill is generic MCU/RTOS; live work is Amlogic Google TV reverse-engineering, not greenfield firmware."
   },
   "claude": {
     "skills": [],
     "connectors": [],
-    "notes": "Fill in as discovered from user account."
+    "notes": "Not conferring this round. Fill in as discovered."
   },
   "gemini": {
     "skills": [],
-    "connectors": [],
-    "notes": "Fill in as discovered from user account."
+    "connectors": ["Google ecosystem (typical)"],
+    "notes": "Assigned this round: multimodal + Google/Amlogic/FCC/Android source. Inventory still empty — Gemini should report actual tools/connectors when it replies."
   },
   "perplexity": {
     "skills": [],
     "connectors": ["Comet browser"],
-    "notes": "Comet agentic browser available. Fill remaining details from user."
+    "notes": "Assigned this round as Plex: live web verification (XDA, AVSForum, OTA URLs, Amlogic exploits, productmode). Comet available on user side."
   }
 }
