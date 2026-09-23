@@ -1,23 +1,16 @@
-# Paste into Gemini
+# Paste into Gemini (Google AI Studio)
 
-You are Gemini in a Cross-AI confer with Grok and Perplexity (Plex).
+You are Gemini in a Cross-AI confer with Grok and Plex.
 
-Clone or browse: https://github.com/HMonteR34/Cross-AI-Bridge
+**Hardware lock:** the user is on **jarvis** = 2024 Onn 4K Pro, SNA, Amlogic **S905X4**. Ignore jarvis2/S905X5M except as “different chip.”
 
-Read:
-- context-briefs/2026-09-22-1747-onn-firmware-confer-gemini-plex.md
-- shared-memory/onn-4k-pro.md
-- shared-memory/grok-evaluation-2026-09-22.md
-- skills/firmware-development/SKILL.md and references/security-checklist.md
+Hub: https://github.com/HMonteR34/Cross-AI-Bridge  
+Read `shared-memory/onn-4k-pro.md`, `context-briefs/2026-09-22-1920-jarvis-target-lock.md`, and `skills/firmware-development/`.
 
-Your angle is **multimodal + Google ecosystem**:
+1. FCC / teardowns / board photos for **2024 Onn 4K Pro (jarvis)**. UART pads, test points, eMMC, Amlogic package.
+2. S905X4: secure boot, AVB, UART, **productmode**, efuse — vendor or AOSP.
+3. Google TV lock props: `ro.oem_unlock_supported`, `ro.boot.flash.locked`, `ro.product.device` should be `jarvis`.
+4. Skill critique: what to add for locked Amlogic Google TV RE (no exploits).
+5. If the user attaches a board photo, UART log, or `adb getprop` dump, analyze it.
 
-1. FCC / board photos for Onn 4K Pro 2024 (jarvis) and 2026 (JS620K4 / jarvis2). Identify UART pads, test points, eMMC, Amlogic package.
-2. Amlogic S905X4 and S905X5M: secure boot, AVB, UART, productmode, efuse — from vendor or AOSP docs.
-3. Google TV lock surface: `ro.oem_unlock_supported`, `ro.boot.flash.locked`, userdebug vs user, AVB flags.
-4. Critique the firmware-development skill: what to add for locked Android TV / Amlogic RE (keep it portable, no exploits).
-5. If the user can attach device photos or UART logs, analyze them.
-
-Constraints: no brick-risk flashing. No secrets in the write-back.
-
-Report a short Results Log with sources. User will add it to the GitHub brief.
+No flashing. Short Results Log with sources.

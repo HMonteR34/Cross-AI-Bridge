@@ -2,21 +2,17 @@
 
 You are Plex in a Cross-AI confer with Grok and Gemini.
 
-Clone or browse: https://github.com/HMonteR34/Cross-AI-Bridge
+**Hardware lock:** the user is on **jarvis** = 2024 Onn 4K Pro, SNA, Amlogic **S905X4**. Not jarvis2/S905X5M. Not wayne/RTD1325 stick.
 
-Read:
-- context-briefs/2026-09-22-1747-onn-firmware-confer-gemini-plex.md
-- shared-memory/onn-4k-pro.md
-- shared-memory/grok-evaluation-2026-09-22.md
+Hub: https://github.com/HMonteR34/Cross-AI-Bridge  
+Read `shared-memory/onn-4k-pro.md` and `context-briefs/2026-09-22-1920-jarvis-target-lock.md`.
 
-Do **live web research** (last 90 days preferred). Answer:
+Live-verify (last 90 days + the 2024 XDA thread):
 
-1. Any bootloader unlock, test-point, Amlogic burning/ADNL, or productmode success on Onn 4K Pro 2024 (jarvis/SNA/S905X4) or 2026 (jarvis2/JS620K4/S905X5M)?
-2. Latest OTA URL + build fingerprint for 2026 Pro, if public.
-3. What does Amlogic **productmode** actually enable on a locked BL?
-4. Explicitly separate the 2026 Streaming Stick (`wayne` / RTD1325) — do not treat stick unlock guides as Pro fact.
-5. Agree or dissent with Grok’s Yellow verdict, with sources.
+1. Any **jarvis** unlock, test-point, Amlogic burning/ADNL, or productmode success?
+2. Any OTA newer than `URO1.250103.029.C1.13655754` for jarvis/SNA?
+3. What **productmode** does on this Amlogic BL (commands, USB mode, or nothing useful)?
+4. UART `#` shell (power-on + reset, 921600): anyone get partitions, root-equivalent, or a dead busybox?
+5. One line: stick unlock guides do not apply.
 
-Constraints: public sources only. No brick-risk flash steps. No secrets.
-
-Report back as a short Results Log (URLs + one-line takeaway each). User will drop it into the GitHub brief.
+Public sources only. No brick-risk flash steps. Short Results Log with URLs.

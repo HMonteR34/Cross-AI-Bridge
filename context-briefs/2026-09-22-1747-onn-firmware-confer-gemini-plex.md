@@ -45,9 +45,10 @@ Question: Is this project set up to make real progress on the locked Onn 4K Pro 
 - Filled missing hub dirs, inventory, shared-memory, this brief.
 - Main issues: hub stale; skill is MCU-generic not Amlogic Google TV RE; Pro ≠ Stick; Drive token missing.
 - Full write-up: `shared-memory/grok-evaluation-2026-09-22.md`
+- **2026-09-22 19:20:** User confirmed they are on **jarvis** (2024 Pro, SNA, S905X4). Follow-up brief: `context-briefs/2026-09-22-1920-jarvis-target-lock.md`. Gemini/Plex prompts retargeted. jarvis2 and wayne are out of scope.
 
 ### Perplexity
-- *(awaiting)*
+- *(awaiting, see retargeted prompt)*
 
 ### Gemini
-- *(awaiting)*
+- *(awaiting — AI Studio needs a paste or API key)*
