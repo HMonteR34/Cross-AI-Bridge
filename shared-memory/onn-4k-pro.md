@@ -1,8 +1,8 @@
 # Shared memory — Onn 4K Pro firmware
 
-**Updated**: 2026-10-01 01:22 CDT (Grok)  
+**Updated**: 2026-10-01 01:31 CDT (Grok)  
 **Target (user-confirmed)**: **Onn 4K Pro — `jarvis`** (2024 SNA / S905X4 unless About later contradicts)  
-**Status**: Yellow — locked bootloader; analysis/capture only. Live About dump in.
+**Status**: Yellow — locked bootloader; analysis/capture only. Live About dump in. **System update: up to date as of March.**
 
 ## Live unit (2026-10-01, About screen, no ADB)
 
@@ -13,6 +13,7 @@ User read **Settings → System → About** with the remote (no phone, no comput
 | Model | **Pro** | Confirms 4K Pro, not stick / Plus / 2023 4K-only |
 | Android TV OS build prefix | **`URO4.`** | Not the older `URO1.` C1 line |
 | Last section | **`15051976`** | Incremental / build id |
+| System update | **Up to date as of March** (2026-10-01 01:31) | No pending OTA. Matches March 2026 patch, not URO1 C1 |
 
 **Reconstructed build (public match, middle not typed):** `URO4.260304.011.B1/15051976`  
 Security patch **2026-03-01**; that pairing is documented on other Onn SKUs (2023 4K `YOC`, 2K stick `XNA`). **Not previously catalogued for jarvis.** Treat as this unit’s current About fingerprint until a full `getprop` exists.
